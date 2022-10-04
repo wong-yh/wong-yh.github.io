@@ -1,0 +1,49 @@
+body {
+    background-color:lightblue; 
+    font-family: "Times New Roman", Times, sans-serif;}
+
+h1,h2{font-weight:bold;}
+h1{text-align:center;;font-size: 2.5em;}
+h2{font-size: 1.875em;}
+
+
+div.sublink{position: relative;
+            left:25px;
+            top:50px;
+            padding: 25px;
+            border:2px dotted grey;
+            max-width:250px;}
+
+#gradphoto {position: relative;
+            left: 400px;
+            top: -100px;}
+
+table, tr, th,td{
+    border: 1px dotted black;}
+
+div.BasicInfo,div.AboutMe, div.MyLink{ 
+  border-radius: 20px;
+  padding: 50px;
+  margin: 50px;}
+
+div.BasicInfo{border:10px solid greenyellow;}
+
+div.AboutMe{border:10px solid orange;}
+
+div.AboutMe>p{
+  margin-bottom:25px;
+  text-indent: 25px
+  }
+
+div.AboutMe>p::selection{
+  background: yellow;
+  }
+
+div.MyLink{border: 10px solid blueviolet;} 
+
+a:hover{color: #f0f;}
+
+
+ 
+
+
