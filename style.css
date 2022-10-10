@@ -26,8 +26,11 @@ div.sublink{position: relative;
             
 #gradphoto {position: relative;
             left: 400px;
-            top: -100px;
-            opacity: 0.8;}
+            top: -100px
+            }
+
+img{opacity: 0.8;}
+img:hover {opacity: 1.0;}            
 
 table, tr, th,td{
     border: 1px dotted black;}
