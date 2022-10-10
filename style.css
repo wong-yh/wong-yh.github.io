@@ -1,5 +1,5 @@
 body {
-    background-color:lightblue; 
+    background-image: linear-gradient( orange,yellow,yellowgreen); 
     font-family: "Times New Roman", Times, sans-serif;}
 
 h1,h2{font-weight:bold;}
@@ -11,12 +11,23 @@ div.sublink{position: relative;
             left:25px;
             top:50px;
             padding: 25px;
-            border:2px dotted grey;
-            max-width:250px;}
+            box-shadow: 10px 10px gray;
+            max-width:250px;
+            background-color: pink;
+            animation-name: example;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            }
 
+@keyframes example {
+   from {background-color: pink;}
+   to {background-color: lightcyan;}
+            }
+            
 #gradphoto {position: relative;
             left: 400px;
-            top: -100px;}
+            top: -100px;
+            opacity: 0.8;}
 
 table, tr, th,td{
     border: 1px dotted black;}
@@ -26,7 +37,7 @@ div.BasicInfo,div.AboutMe, div.MyLink{
   padding: 50px;
   margin: 50px;}
 
-div.BasicInfo{border:10px solid greenyellow;}
+div.BasicInfo{border:10px solid green;}
 
 div.AboutMe{border:10px solid orange;}
 
